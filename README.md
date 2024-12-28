@@ -8,3 +8,17 @@ Let's setup **chocolatey** package manager for our windows machine to download v
 Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
 ```
 Now run **choco or choco -?** to check the installation.
+
+## Softwares to be installed
+**Again open powershell as administrator and run the following commands one by one**
+```powershell
+choco install virtualbox --version=7.1.4 -y
+choco install vagrant --version=2.4.3 -y
+choco install git -y
+choco install corretto17jdk -y
+choco install maven -y
+choco install awscli -y
+choco install intellijidea-community -y
+choco install vscode -y
+choco install sublimetext3 -y
+```
