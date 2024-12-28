@@ -22,3 +22,7 @@ choco install intellijidea-community -y
 choco install vscode -y
 choco install sublimetext3 -y
 ```
+
+## Directories
+Now you are all set to follow the fanastic journey of learnig DevOps, Follow the directory structure sequentially to have full grasp over concepts and doing projects.</br>
+[VM Setup](./vm-setup/) - Contains to process of setting of vm's manually and automatically
