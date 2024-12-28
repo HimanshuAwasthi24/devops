@@ -5,7 +5,7 @@
 
 ## Automatic
 1. Open gitbash and run following commands.</br>
-```gitbash
+```bash
 #Creating three directories
 mkdir -p vagrant-vms/{ubuntu,centos}
 
